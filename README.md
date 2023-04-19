@@ -11,23 +11,38 @@ The Agaricus-Lepiota dataset contains information about various features of mush
 Used the following libraries for this project:
 
 •NumPy
+
 •Pandas
+
 •scikit-learn
+
 •Matplotlib
 
 ## Workflow
 •Load the dataset using Pandas.
+
 •Convert categorical features to binary features using one-hot encoding.
+
 •Separate features and target variable.
+
 •Divide the dataset into 70-30 for training and testing with 10 different samples.
+
 •Create the NuSVC model object.
+
 •Train the model on the training set.
+
 •Predict the target values for the test set using the trained model.
+
 •Evaluate the performance of the model using accuracy score.
+
 •Find the sample with maximum accuracy.
+
 •Create a NuSVC model object with the best parameters.
+
 •Train the model on the training set with best parameters.
+
 •Plot the convergence graph for the sample whose accuracy is maximum.
+
 •Plot the graph of accuracy vs number of iterations.
 
 ## Results
